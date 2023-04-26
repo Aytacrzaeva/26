@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      var availableTags = [
+        "ActionScript",
+        "AppleScript",
+        "Asp",
+        "BASIC",
+        "C",
+        "C++",
+        "Clojure",
+        "COBOL",
+        "ColdFusion",
+        "Erlang",
+        "Fortran",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Perl",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Scala",
+        "Scheme"
+      ];
+      $( "#tags" ).autocomplete({
+        source: availableTags
+      });
+    } );
+    </script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "input" ).checkboxradio();
+      } );
+      </script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#dialog" ).dialog();
+      } );
+      </script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( document ).tooltip();
+      } );
+      </script>
+      <style>
+      label {
+        display: inline-block;
+        width: 5em;
+      }
+      </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>ACCARDION</h2>
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+
+
+<h2>AUTOCOMPLETE</h2>
+<div class="ui-widget">
+    <label for="tags">Tags: </label>
+    <input id="tags">
+  </div>
+<h2>CHECKBOXRADIO</h2>
+<div class="widget">
+    <h1>Checkbox and radio button widgets</h1>
+   
+    <h2>Radio Group</h2>
+    <fieldset>
+      <legend>Select a Location: </legend>
+      <label for="radio-1">New York</label>
+      <input type="radio" name="radio-1" id="radio-1">
+      <label for="radio-2">Paris</label>
+      <input type="radio" name="radio-1" id="radio-2">
+      <label for="radio-3">London</label>
+      <input type="radio" name="radio-1" id="radio-3">
+    </fieldset>
+   
+    <h2>Checkbox</h2>
+    <fieldset>
+      <legend>Hotel Ratings: </legend>
+      <label for="checkbox-1">2 Star</label>
+      <input type="checkbox" name="checkbox-1" id="checkbox-1">
+      <label for="checkbox-2">3 Star</label>
+      <input type="checkbox" name="checkbox-2" id="checkbox-2">
+      <label for="checkbox-3">4 Star</label>
+      <input type="checkbox" name="checkbox-3" id="checkbox-3">
+      <label for="checkbox-4">5 Star</label>
+      <input type="checkbox" name="checkbox-4" id="checkbox-4">
+    </fieldset>
+   
+    <h2>Checkbox nested in label</h2>
+    <fieldset>
+      <legend>Bed Type: </legend>
+      <label for="checkbox-nested-1">2 Double
+        <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+      </label>
+      <label for="checkbox-nested-2">2 Queen
+        <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+      </label>
+      <label for="checkbox-nested-3">1 Queen
+        <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+      </label>
+      <label for="checkbox-nested-4">1 King
+        <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+      </label>
+    </fieldset>
+  </div>
+  <div class="section">
+  <h2>DIALOG</h2>
+  <div id="dialog" title="Basic dialog">
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+  </div>
+</div>
+<h2>TOOLTIP</h2>
+<p><a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover
+    the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+    <p>But as it&apos;s not a native tooltip, it can be styled. Any themes built with
+    <a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI&apos;s theme builder application">ThemeRoller</a>
+    will also style tooltips accordingly.</p>
+    <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+    <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+    <p>Hover the field to see the tooltip.</p>
+</body>
+</html>
